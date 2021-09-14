@@ -1,0 +1,72 @@
+.Content {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DivCalc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DivCalc h1 {
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+
+  font-size: 35px;
+  font-weight: bold;
+  color: #333333;
+}
+
+hr {
+  height: 2px;
+  width: 15%;
+
+  border: 0 none;
+  background-color: rgb(107, 20, 20);
+}
+
+.DivCalc p {
+  max-width: 30%;
+  margin: 0;
+  color: #3f3f3f;
+}
+
+.DivCalc form {
+  margin-top: 30px;
+}
+
+.DivCalc input {
+  margin: 0;
+  padding: 10px;
+  width: 20vw;
+
+  outline: 0 none;
+  border: 0 none;
+  border-radius: 7px;
+  color: #3f3f3f;
+  background-color: rgb(233, 233, 233);
+  transition: 0.2s;
+}
+
+.DivCalc input:focus {
+  box-shadow: rgb(233, 233, 233) 0px 0px 0px 1px;
+  background-color: white;
+}
+
+.Result {
+  height: fit-content;
+  margin-bottom: 25px;
+
+  font-weight: normal;
+  font-size: 25px;
+  color: #3f3f3f;
+}
