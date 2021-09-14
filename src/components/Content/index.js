@@ -67,7 +67,7 @@ export default function Content() {
   return (
     <div className="Content">
       <div className="DivCalc">
-        <h1>Calculo padrão</h1>
+        <h1>Padrão</h1>
         <p>
           A conta padrão é utilizada quando o animal dorme no curral ou quando é
           um bezerro de até 6 mêses de idade.
@@ -87,7 +87,7 @@ export default function Content() {
       </div>
       <hr />
       <div className="DivCalc">
-        <h1>Calculo "barriga cheia"</h1>
+        <h1>Barriga cheia</h1>
         <p>
           Esse calculo é utilizado quando o bovino não dorme no curral, então a
           barriga pode estar cheia, removemos 1kg por arroba.
