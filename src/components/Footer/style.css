@@ -1,0 +1,28 @@
+footer {
+  width: 100%;
+  height: fit-content;
+
+  background-color: rgb(233, 233, 233);
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  font-size: 18px;
+  color: #333333;
+}
+
+footer a {
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+  color: #333333;
+  transition: 0.1s;
+}
+
+footer a:hover {
+  border-bottom: 2px solid black;
+  color: black;
+}
