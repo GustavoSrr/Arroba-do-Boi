@@ -2,7 +2,7 @@
 
 > Uma simples "calculadora" de arroba a partir do peso em kg do animal.
 
-## 💡 De onde veio a ideia?
+## 💡 De onde veio?
 
 Tive essa ideia graças ao Globo Rural, que no final de cada programa mostra o valor da arroba do gado.
 
@@ -20,13 +20,26 @@ Se quiser saber mais, dê uma olhada [nessa página](https://pt.wikipedia.org/wi
 - Css
 - Javascript
 
+## ⚠ Pré-requisitos
+
+- [Node](https://nodejs.org/pt-br/)
+
 ## 🔽 Instalando
 
+### Clone esse respositório:
+
 ```
-# Clone esse respositório
 git clone git@github.com:GustavoSrr/Arroba-do-Boi.git
-# Entre na pasta gerada
+```
+
+### Entre na pasta gerada:
+
+```
 cd Arroba-do-Boi
-# Inicie
+```
+
+### Inicie:
+
+```
 npm start
 ```
