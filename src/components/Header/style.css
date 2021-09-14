@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  height: fit-content;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+
+  background-color: rgb(233, 233, 233);
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+  font-weight: normal;
+  color: #333333;
+}
+
+header span {
+  font-weight: bold;
+  color: rgb(107, 20, 20);
+}
